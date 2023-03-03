@@ -1,0 +1,223 @@
+body{
+    width: 100%;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+}
+
+.formClass{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#h1{
+    margin-bottom: 0;
+    font-size: xx-large;
+}
+
+p{
+    font-size: smaller;
+    font-weight: normal;
+    color: rgb(160, 160, 160);
+}
+label{
+    font-weight: bold;
+    font-size: smaller;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+input{
+    height: 30px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    padding-left: 10px;
+    /* padding-left: 15px; */
+}
+
+#checkboxID label {
+    font-size: smaller;
+}
+
+
+.checkboxID{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#checkboxLabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.checkboxID button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.checkboxID button:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.formBtn{
+    display: flex;
+    flex-direction: column;
+}
+
+.formBtn button{
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#signIn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#signInG{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#signUpBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#signUpBtn:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#labelID{
+    font-weight: normal;
+    text-align: center;
+}
+
+.photoBgrnd{
+   background-image: url(./Assets/IMG_5421-3.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+   height: 100vh;
+   width: 50%;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.glassMorphism {
+    width: 90%;
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 0.5px solid rgb(178, 178, 178);
+    transform: translateY(-10%);
+}
+
+#glassMorphismScript{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+#glassMorphismScript button {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: none;
+    font-size: large;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#glassMorphismScript button:hover{
+    border: 2px solid white;
+    box-shadow: white;
+}
+#glassMorphismScript2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+h4  {
+    margin: 0;
+    padding-bottom: 5px;
+    font-weight: lighter;
+}
+#glassMorphismScript3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .photoBgrnd {
+        display: none;
+    }
+
+    .formClass{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #form {
+        width: 80%;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+}
